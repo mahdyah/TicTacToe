@@ -1,6 +1,6 @@
 # TicTacToe
 The following is a pdf link to the wireframe.
-[TTTGWireFrame.pdf][embed]C:/Users/mahdy/Desktop/ticTacToeWireFrame/TTTGWireFrame.pdf[/embed]
+[TTTGWireFrame.pdf](https://github.com/mahdyah/TicTacToe/blob/main/TTTGWireFrame.pdf)
 This the traditional game of tic tac toe. The player is going to play agains the computer.
 The game has 5 levels, which the first level starts from 3/3 and when the user gets to level 5 there will be a 7 by 7 playboard. If the computer wins a round, the player will have the option to go to next level otherwise the player will have the option of keep playing until win.
 Here are the list of thing need to be done:
