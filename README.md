@@ -17,7 +17,7 @@ Here are the list of thing need to be done:
       2. Enable the user to share the prograss in social media.
       
       
-      Here you can play what has been done so far.[TicTacToe.HTML](http://127.0.0.1:5500/gameBoard.html)
+      Here you can play what has been done so far.[TicTacToe.HTML](http://127.0.0.1:5500/welcomePage.html)
       
       
       
