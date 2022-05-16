@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="./script.js" defer></script>
+    <script src="./scriptSelectCharacter.js" defer></script>
+    <script defer src="./scriptGameboard.js" ></script>
+   
+
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
@@ -9,14 +12,20 @@
     <title>3Tic Tac Toe</title>
 </head>
 <body>
+
+
+    <div class="WinpopUp">
+<H2>YOU ARE THE WINNER!</H2>
+    </div>
+    <div class="LoosePopUp">
+<H2>YOU LOST TRY AGAIN</H2>
+    </div>
 <div class="gameBoard">
-
-
-
-
-
 </div>
-    
+  
+
+
+
 <div class="help"> 
     <img src="./assets/information.png" alt="" width="50px" >
 </div>
@@ -26,12 +35,14 @@
 <div class="buttons">
    
    <div id="nextLevel" class="nextLevel">Next Level</div>
-   <div id="tryAgain"> <button class="tryAgain">Try Again </button></div>
-   <a href="./selectCharacterPage.html"></a><div id="goHome"> <button class="goHome">Home</button></div></a>
+   <div id="tryAgain" class="tryAgain">Try Again </div>
+   <a href="./selectCharacterPage.html"><div id="goHome"> <button class="goHome">Home</button></div></a>
 </div>
 
+<script src="./scriptSelectCharacter.js" ></script>
+<script src="./scriptGameboard.js" ></script>
 
 
-
+<!-- <script src="./script.js"></script> -->
 </body>
 </html>

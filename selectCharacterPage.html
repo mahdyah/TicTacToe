@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script src="./script.js" defer></script>
+   
+ 
+   
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2Tic Tac Toe</title>
 </head>
-<body >
- <!-- second page -->
-<div class="selectCharacter">
 
-    <div>
-        <h1 class="selectCharacterTitle">Select A Character</h1>
+<body class="window">
+    <!-- second page -->
+    <div class="selectCharacter">
+
+        <div>
+            <h1 class="selectCharacterTitle">Select A Character</h1>
+        </div>
+
+        <div class="images">
+                 <img src="./assets/005-girl-removebg-preview.png" alt="" width="150px" id="image">
+                <img src="./assets/006-girl-1-removebg-preview (1).png" alt="" width="150px" id="image"> 
+                <img src="./assets/004-boy-removebg-preview.png" alt="" width="150px" id="image">
+                <img src="./assets/003-avatar-removebg-preview.png" alt="" width="150px" id="image">
+                <img src="./assets/hijabi-woman-removebg-preview.png" alt="" width="150px" id="image" >
+                <img src="./assets/nonhijabi-woman-removebg-preview.png" alt="" width="150px" id="image">
+
+        </div> 
+        <!-- images end-->
+
+        <a href="./gameBoard.html"> <button class="start">Start</button> </a>
+
     </div>
-   
-  <div class="images" >
-    
-        <div class="img">
-            <img src="./assets/002-woman-1.png" alt="" width="150px" id="x1">
-             <img src="./assets/001-woman.png" alt="" width="150px" id="x2">
-          <img src="./assets/005-girl.png" alt="" width="150px" id="x3">
-        </div>
-        
-        <div class="img">
-            <img src="./assets/006-girl-1.png" alt="" width="150px" id="x4">
-           <img src="./assets/004-boy.png" alt="" width="150px" id="x5">
-            <img src="./assets/003-avatar.png" alt="" width="150px" id="x6">
-        </div>
-        
-        </div>
-       <!-- images end-->
- 
-   <a href="./gameBoard.html"> <button class="start">Start</button>  </a>
-
-   </div>    
-   <!-- selectCharacter ends -->
-   <div class="help"> 
-    <img src="./assets/information.png" alt="" width="50px" >
-</div>
-
+    <!-- selectCharacter ends -->
+    <div class="help">
+        <img src="./assets/information.png" alt="" width="50px">
+    </div>
+    <script src="./scriptSelectCharacter.js" ></script>
+    <script src="./scriptGameboard.js" ></script>
 </body>
+
 </html>
